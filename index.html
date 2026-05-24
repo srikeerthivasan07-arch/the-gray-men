@@ -40,7 +40,7 @@
     nav.scrolled { background: rgba(15,13,11,0.9); backdrop-filter: blur(20px); border-bottom: 1px solid var(--gray-dark); }
     .nav-logo { display: flex; align-items: center; gap: 14px; text-decoration: none; }
     .nav-logo img { width: 42px; opacity: 0.9; }
-    .nav-brand { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; letter-spacing: 0.3em; color: var(--gray-light); font-weight: 400; text-transform: uppercase; }
+    .nav-brand { font-family: 'Cormorant Garamond', serif; font-size: 1.45rem; letter-spacing: 0.34em; color: var(--text-primary); font-weight: 500; text-transform: uppercase; }
     .nav-actions { display: flex; align-items: center; gap: 10px; }
     .nav-btn { background: transparent; border: 1px solid var(--gray-mid); color: var(--text-primary); border-radius: 999px; cursor: none; display: flex; align-items: center; gap: 8px; transition: all 0.3s ease; font-family: 'Montserrat', sans-serif; font-size: 0.7rem; letter-spacing: 0.15em; }
     .nav-btn.icon-only { padding: 10px 12px; }
@@ -51,7 +51,7 @@
     #hero { min-height: 100vh; background: var(--black); display: flex; flex-direction: column; justify-content: center; padding: 120px 48px 80px; position: relative; overflow: hidden; }
     .hero-bg-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); font-family: 'Cormorant Garamond', serif; font-size: 18vw; font-weight: 700; color: rgba(255,255,255,0.02); white-space: nowrap; pointer-events: none; user-select: none; }
     .hero-top { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; margin-bottom: 60px; }
-    .hero-tagline { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 0.9rem; color: var(--gray); line-height: 1.8; max-width: 340px; opacity: 0; animation: fadeUp 1s ease 2.8s forwards; }
+    .hero-tagline { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.25rem; color: #f2e8dc; line-height: 2; max-width: 500px; font-weight: 400; letter-spacing: 0.02em; opacity: 0; animation: fadeUp 1s ease 2.8s forwards; }
     .hero-headline { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.8rem,5vw,4.5rem); font-weight: 600; line-height: 1.05; letter-spacing: 0.05em; text-align: right; text-transform: uppercase; color: var(--text-primary); opacity: 0; animation: fadeUp 1s ease 3s forwards; }
     .hero-carousel { position: relative; height: 520px; display: flex; align-items: center; justify-content: center; opacity: 0; animation: fadeUp 1s ease 3.2s forwards; }
     .hero-card { position: absolute; width: 220px; height: 420px; border-radius: 20px; overflow: hidden; transition: all 0.8s cubic-bezier(0.25,0.46,0.45,0.94); cursor: none; }
@@ -232,7 +232,7 @@
 
   <nav id="navbar">
     <a href="#" class="nav-logo">
-      <img src="logo.png" alt="The Gray Men" style="width:36px;display:block;"/>
+      <img src="logo.png" alt="The Gray Men" style="width:52px;display:block;"/>
       <span class="nav-brand">THE GRAY MEN</span>
     </a>
     <div class="nav-actions">
@@ -253,7 +253,8 @@
   <section id="hero">
     <div class="hero-bg-text">GRAY</div>
     <div class="hero-top">
-      <p class="hero-tagline">At The Gray Men, we craft complete co-ord sets that move with purpose and speak with power. No guesswork — just curated elegance, crafted for modern gentlemen.</p>
+      <p class="hero-tagline">"True presence is quiet. It needs no introduction, no explanation, and never asks to be admired.”
+— Srikeerthivasan Palanisami.</p>
       <h1 class="hero-headline">Crafted for<br/>Modern<br/>Gentlemen.</h1>
     </div>
     <div class="hero-carousel" id="heroCarousel">
